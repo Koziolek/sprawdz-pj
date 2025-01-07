@@ -4,7 +4,7 @@
 if [ $# -lt 1 ]; then
   echo "Użycie: $0 <plik>"
   echo "plik w formacie CSV, który nie ma nagłówka, struktura:"
-  echo "imię,nazwisko,numer PJ"
+  echo "imię,nazwisko,numer blankietu PJ"
   exit 1
 fi
 
